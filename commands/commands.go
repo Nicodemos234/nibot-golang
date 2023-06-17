@@ -22,6 +22,11 @@ func GetAllCommands() map[string]Command {
 		Exec: Play,
 		Help: "!play {link da música} para tocar uma música",
 	}
+	commands["rpg"] = Command{
+		Name: "Rpg",
+		Exec: Rpg,
+		Help: "!rpg para tocar as músicas do rpg",
+	}
 	commands["avatar"] = Command{
 		Name: "Avatar",
 		Exec: Avatar,
